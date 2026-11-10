@@ -59,4 +59,4 @@ proc_info = []
 
 for proc in psutil.process_iter(): 
 
-    proc_info.append([proc.pid,proc.name(),proc.status()])
+    proc_info.append([proc.pid,proc.name(),proc.status(),proc.cpu_percent(interval=False)])
