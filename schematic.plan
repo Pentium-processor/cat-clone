@@ -1,0 +1,23 @@
+First Screen Layout (similar to top):
+
+       Time average system load
+
+       PID(Process ID)  USER  CPU% MEM% 
+
+Mapped to 1
+
+Second Screen layout (disk usage/apparent size stats):
+
+         filename disk usage apparent size
+
+Mapped to 2
+
+Third Screen layout (CPU Stats to be read from /proc/cpuinfo):
+
+                             CPU MODEL NAME
+                            --------------
+
+           CORE ID   CACHE SIZE  CPU UTILIZATION  CPU CLOCKSPEED
+          ---------  ----------  --------------- ------------------
+
+Mapped to 3
